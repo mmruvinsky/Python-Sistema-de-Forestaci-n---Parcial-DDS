@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Generic, TypeVar, List
 from src.patrones.observer.observer import Observer
+T = TypeVar('T')
 
 class Observable(Generic[T], ABC):
     def __init__(self):

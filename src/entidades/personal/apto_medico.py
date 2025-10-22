@@ -1,4 +1,4 @@
-
+from datetime import date
 
 class AptoMedico:
     def __init__(self, apto: bool, fecha_emision: date, 
